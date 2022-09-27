@@ -148,7 +148,7 @@ def trainProcess():
 
         # Print validation accuracy and best validation accuracy
         best_val = max(lossval, best_val)
-        print '** Validation: %f (best) - %f (current)' % (best_val, lossval)
+        print ('** Validation: %f (best) - %f (current)' % (best_val, lossval))
 
 
 
